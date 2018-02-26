@@ -1,6 +1,7 @@
 import { inject as service } from '@ember/service';
 import DS from 'ember-data';
 import config from 'dummy/config/environment';
+import fetch from 'fetch';
 
 export default DS.Adapter.extend({
 
